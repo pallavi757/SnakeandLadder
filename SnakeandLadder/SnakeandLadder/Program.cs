@@ -7,6 +7,7 @@
         Console.WriteLine("Welcome to Snake and Ladder game");
 
         int position = 0;
+        int Roll = 0;
         Random random = new Random();
         int RollDie = random.Next(1, 6);//To get number between 1 to 6
         Random CheckOption=new Random();
@@ -37,6 +38,8 @@
 
             }
             Console.WriteLine("Current position: " + position);
+            Roll++;
+            Console.WriteLine(" Congratulations!! You took " + Roll + " rolls to win the game!!");
         }
        
         
