@@ -22,7 +22,12 @@
                 case 1:
                     Console.WriteLine("Player action: ladder");
                     position += RollDie;
-                    break;
+                    if (position > 100)
+                    {
+                        position -= RollDie;
+                        Console.WriteLine(" Exceeded 100 so not counting");
+                    }
+                        break;
                 case 2:
                     Console.WriteLine("Player action: snake");
                     position -= RollDie;
