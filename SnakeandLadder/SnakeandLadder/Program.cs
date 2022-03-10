@@ -1,7 +1,7 @@
 ﻿public class SnakesAndLadders
 {
 
-	    static void Main(String[] args)
+        public static void Main(String[] args)
 
 	  {
 		int position = 0; 
